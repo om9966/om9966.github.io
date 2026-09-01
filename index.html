@@ -2,18 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta
         name="description"
-        content="Personal portfolio, photography and digital projects by Mido Wang."
+        content="Oliver Mountifield's personal website, portfolio and projects."
     >
 
-    <title>Mido Wang | Portfolio & Projects</title>
+    <title>Oliver Mountifield</title>
 
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="css/style.css">
@@ -21,127 +17,70 @@
 </head>
 
 <body>
-    <header class="site-header">
-        <a class="logo" href="index.html" aria-label="Go to homepage">
-            MW
-        </a>
+    <header>
+        <a class="site-name" href="index.html">Oliver Mountifield</a>
 
-        <nav class="navigation" aria-label="Main navigation">
-            <a href="index.html" aria-current="page">Home</a>
+        <nav>
+            <a href="index.html">Home</a>
             <a href="portfolio.html">Portfolio</a>
-            <a href="bot.html">Discord Bot</a>
+            <a href="bot.html">Bot</a>
         </nav>
     </header>
 
     <main>
-        <section class="hero">
-            <div class="hero-content">
-                <p class="eyebrow">PHOTOGRAPHY · TRAVEL · DIGITAL MEDIA</p>
+        <section class="intro">
+            <p class="small-text">Welcome to my website</p>
 
-                <h1>
-                    Hi, I’m Mido.
-                    <span>I photograph places and build digital projects.</span>
-                </h1>
+            <h1>Hey, I’m Oliver.</h1>
 
-                <p class="hero-description">
-                    Explore my photography portfolio, Discord bot and other
-                    projects—all collected in one place.
-                </p>
-
-                <a class="primary-button" href="portfolio.html">
-                    View my work
-                    <span aria-hidden="true">→</span>
-                </a>
-            </div>
-
-            <div class="hero-visual" aria-hidden="true">
-                <div class="visual-label">
-                    <span>Based in Australia</span>
-                    <span>34.4° S</span>
-                </div>
-            </div>
+            <p class="intro-text">
+                This is where I keep my photography, projects and other
+                things I’ve made.
+            </p>
         </section>
 
-        <section class="projects-section" aria-labelledby="projects-heading">
-            <div class="section-heading">
+        <section class="links" aria-label="Website pages">
+            <a class="page-card" href="portfolio.html">
+                <span class="card-icon">📷</span>
+
                 <div>
-                    <p class="eyebrow">EXPLORE</p>
-                    <h2 id="projects-heading">Choose where to go</h2>
+                    <h2>Portfolio</h2>
+                    <p>Some of my photography and favourite images.</p>
                 </div>
 
-                <p>
-                    Photography, software and projects I’m currently building.
-                </p>
-            </div>
+                <span class="arrow" aria-hidden="true">→</span>
+            </a>
 
-            <div class="project-grid">
-                <a class="project-card featured-card" href="portfolio.html">
-                    <div class="card-number">01</div>
+            <a class="page-card" href="bot.html">
+                <span class="card-icon">🤖</span>
 
-                    <div class="card-content">
-                        <p class="card-category">Photography</p>
-                        <h3>Portfolio</h3>
+                <div>
+                    <h2>Discord Bot</h2>
+                    <p>Information, commands and a link to add my bot.</p>
+                </div>
 
-                        <p>
-                            Travel, landscape, aviation and street photography
-                            from Australia and around the world.
-                        </p>
+                <span class="arrow" aria-hidden="true">→</span>
+            </a>
 
-                        <span class="card-link">
-                            Explore photographs
-                            <span aria-hidden="true">→</span>
-                        </span>
-                    </div>
-                </a>
+            <a class="page-card" href="projects.html">
+                <span class="card-icon">📁</span>
 
-                <a class="project-card" href="bot.html">
-                    <div class="card-number">02</div>
+                <div>
+                    <h2>Other Projects</h2>
+                    <p>Other stuff I’ve worked on or am currently making.</p>
+                </div>
 
-                    <div class="card-content">
-                        <p class="card-category">Software</p>
-                        <h3>Discord Bot</h3>
-
-                        <p>
-                            Learn what my Discord bot can do, view its commands
-                            and add it to your server.
-                        </p>
-
-                        <span class="card-link">
-                            View the bot
-                            <span aria-hidden="true">→</span>
-                        </span>
-                    </div>
-                </a>
-
-                <a class="project-card" href="projects.html">
-                    <div class="card-number">03</div>
-
-                    <div class="card-content">
-                        <p class="card-category">More work</p>
-                        <h3>Other Projects</h3>
-
-                        <p>
-                            Videos, digital experiments and other things I am
-                            creating.
-                        </p>
-
-                        <span class="card-link">
-                            See my projects
-                            <span aria-hidden="true">→</span>
-                        </span>
-                    </div>
-                </a>
-            </div>
+                <span class="arrow" aria-hidden="true">→</span>
+            </a>
         </section>
     </main>
 
-    <footer class="site-footer">
-        <p>© <span id="current-year"></span> Mido Wang</p>
+    <footer>
+        <p>© <span id="current-year"></span> Oliver Mountifield</p>
 
         <div class="footer-links">
-            <!-- Replace # with your actual profile links -->
-            <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a href="#" target="_blank" rel="noopener noreferrer">YouTube</a>
+            <!-- Replace # with your actual links -->
+            <a href="#">GitHub</a>
             <a href="mailto:your-email@example.com">Email</a>
         </div>
     </footer>
