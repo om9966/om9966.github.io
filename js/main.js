@@ -1,5 +1,5 @@
-const yearElement = document.querySelector("#current-year");
+const year = document.querySelector("#current-year");
 
-if (yearElement) {
-    yearElement.textContent = new Date().getFullYear();
+if (year) {
+    year.textContent = new Date().getFullYear();
 }
