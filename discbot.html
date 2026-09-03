@@ -1,44 +1,37 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Portfolio | Oliver Mountifield</title>
+```
+<title>Discord Bot</title>
 
-    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+```
+
 </head>
 
 <body>
-    <header>
-        <a class="site-name" href="index.html">Oliver Mountifield</a>
-
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="bot.html">Bot</a>
-        </nav>
-    </header>
-
     <main>
-        <section class="intro">
-            <p class="small-text">Portfolio</p>
-            <h1>Nothing here yet.</h1>
+        <input type="text" id="password" placeholder="Enter password">
 
-            <p class="intro-text">
-                I’m still putting this page together. Check back later.
-            </p>
-        </section>
+```
+    <button onclick="submitPassword()">Submit</button>
+</main>
 
-        <a class="page-card" href="index.html">
-            <span class="card-icon">←</span>
+<script>
+    function submitPassword() {
+        const password = document.getElementById("password").value;
 
-            <div>
-                <h2>Back to the homepage</h2>
-                <p>Return to the main page.</p>
-            </div>
-        </a>
-    </main>
+        if (password === "Posterisation") {
+            window.location.href = "https://discord.com/oauth2/authorize?client_id=1544902161056403506&permissions=8&integration_type=0&scope=bot";
+        }
+    }
+</script>
+```
+
 </body>
 </html>
