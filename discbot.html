@@ -25,8 +25,11 @@
 <script>
     function submitPassword() {
         const password = document.getElementById("password").value;
+        const required = String.fromCharCode(
+            80, 111, 115, 116, 101, 114, 105, 115, 97, 116, 105, 111, 110
+        );
 
-        if (password === "Posterisation") {
+        if (password === required) {
             window.location.href = "https://discord.com/oauth2/authorize?client_id=1544902161056403506&permissions=8&integration_type=0&scope=bot";
         }
     }
